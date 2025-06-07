@@ -1,0 +1,97 @@
+
+.Night
+{
+/*Image Background Body*/
+--Background-Body:url(../public/Wallpaper_Body_Background_Night.png);
+
+/*NavBar Background,Colors And Images*/
+--Background-NavBar:linear-gradient(150deg,#111,#000);
+--Color_Text_NavBar:#fff;
+--Color_SVG:#fff;
+--Background_HoverSVG:#fff;
+--Box_Shadow_HoverSVG:#fff;
+--Color_HoverSVG:#111;
+
+/*Flags colors texts and images*/
+--Flag_White_Black:url(../public/Flag-Black-Hanging.png);
+--Flag-Color-Text:#D7D9DB;
+
+/*Backgrounds, Texts Colors ContentCard*/
+--Background-ContainerCard:#101010;
+--Background-SmallContainer:#FFFFFF;
+--CardBackground:#181818;
+--Border-Bottom:#FFFFFF;
+--Standard-Color:#FFFFFF;
+--Color-TextWorld:#4B4B4B;
+--Color-Close:#FFFFFF;
+
+/**Backgrounds, Texts Color ContentSmallCard*/
+--Background-SmallCard:#FFFFFF;
+--Background-Card:linear-gradient(7deg, black, #181818, black);
+--Color-SmallCard:#4B4B4B;
+
+/*Scroll Background*/
+--Background-Scroll:#101010;
+
+/*Colors Elements Signs*/
+--Color-Fire:#F51A20;
+--Color-Earth:#9e5b3d;
+--Color-Wind:#B3CAD0;
+--Color-Water:#0549ff;
+--Shadows:#000;
+
+/*Background Elements Signs*/
+--Background-Fire:linear-gradient(28deg, #F51A20,#F51A20, #111, #111,#111,#111,#111,#111,#111,#111,#111,#111,#111,#111, #111, #111, #111);
+--Background-Earth:linear-gradient(28deg, #9e5b3d, #9e5b3d, #111, #111,#111,#111,#111,#111,#111,#111,#111,#111,#111,#111, #111, #111, #111);
+--Background-Wind:linear-gradient(28deg,#B3CAD0, #B3CAD0, #111, #111,#111,#111,#111,#111,#111,#111,#111,#111,#111,#111, #111, #111, #111);
+--Background-Water:linear-gradient(28deg, #0549ff, #0549ff, #111, #111,#111,#111,#111,#111,#111,#111,#111,#111,#111,#111, #111, #111, #111);
+
+}
+
+.Light 
+{
+/*Image Background Body*/
+--Background-Body:url(../public/Wallpaper_Body_Background_Light.png);
+
+/*NavBar Background,Colors And Images*/
+--Background-NavBar:#fff;
+--Color_Text_NavBar:#111;
+--Color_SVG:#111;
+--Background_HoverSVG:#111;
+--Box_Shadow_HoverSVG:#000;
+--Color_HoverSVG:#fff;
+
+/*Flags colors texts and images*/
+--Flag_White_Black:url(../public/Flag-White-Hanging.png);
+--Flag-Color-Text:#2A2927;
+
+/*Backgrounds, Texts Colors ContentCard*/
+--Background-ContainerCard:#FFFFFF;
+--Background-SmallContainer:#101010;
+--CardBackground:#fff5f5;
+--Border-Bottom:#181818;
+--Standard-Color:#101010;
+--Color-TextWorld:#FFFFFF;
+--Color-Close:#111111;
+
+/**Backgrounds, Texts Color ContentSmallCard*/
+--Background-SmallCard:#101010;
+--Background-Card:linear-gradient(7deg, #ffffff, #ffffff, #f4f4f4);
+--Color-SmallCard:#FFFFFF;
+
+/*Scroll Background*/
+--Background-Scroll:#ffffff;
+
+/*Colors Elements Signs*/
+--Color-Fire:#F51A20;
+--Color-Earth:#9e5b3d;
+--Color-Wind:#668a93;
+--Color-Water:#0549ff;
+--Shadows:#f5f5f5;
+
+/*Background Elements Signs*/
+--Background-Fire:linear-gradient(28deg, #F51A20,#F51A20, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff, #fff, #fff);
+--Background-Earth:linear-gradient(28deg, #9e5b3d, #9e5b3d, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff, #fff, #fff);
+--Background-Wind:linear-gradient(28deg,#B3CAD0,#B3CAD0, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff, #fff, #fff);
+--Background-Water:linear-gradient(28deg, #0549ff, #0549ff, #fff, #fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff,#fff, #fff, #fff, #fff);
+}

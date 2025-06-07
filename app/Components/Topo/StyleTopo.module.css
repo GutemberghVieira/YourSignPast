@@ -1,0 +1,236 @@
+
+.TopoContainer 
+{
+width:98%;
+padding:10px;
+margin:12px;
+border-radius:80px;
+height:70px;
+display:flex;
+align-items:center;
+justify-content:space-around;
+gap:0 15px;
+background:var(--Background-NavBar);
+position:relative;
+}
+
+.TopoContainer i 
+{
+width:50px;
+height:50px;
+display:flex;
+align-items:center;
+justify-content:center;
+cursor:pointer;
+}
+
+.TopoContainer .SunStyle svg, 
+.TopoContainer .MoonStyle svg
+{
+color:var(--Color_SVG);
+font-size:45px;
+animation:ScaleNext .2s ease-in;
+border-radius:50%;
+}
+
+.TopoContainer .SunStyle svg:hover,
+.TopoContainer .MoonStyle svg:hover
+{
+box-shadow:0px 0px 20px var(--Box_Shadow_HoverSVG);
+background:var(--Background_HoverSVG);
+color:var(--Color_HoverSVG);
+transition:.2s ease-in;
+}
+
+@keyframes ScaleNext 
+{
+
+0%
+{
+transform:scale(-1.1);
+}
+
+}
+
+.TopoContainer h2 
+{
+color:var(--Color_Text_NavBar);
+font-size:16px;
+display:flex;
+align-items:center;
+}
+
+.TopoContainer span
+{
+font-size:18px;
+margin:0 2px;
+}
+
+.TopoContainer img 
+{
+width:50px;
+height:50px;
+margin:0 10px;
+}
+ 
+.StyleParagraph,
+.RemoveParagraph
+{
+color:var(--Color_Text_NavBar) !important;
+font-size:100%;
+font-weight:bold;
+opacity:1;
+}
+
+.Fire 
+{
+color:var(--Color-Fire);
+}
+
+.Earth 
+{
+color:var(--Color-Earth);
+}
+
+.Wind 
+{
+color:var(--Color-Wind);
+}
+
+.Water 
+{
+color:var(--Color-Water)
+}
+
+.ButtonEmergency,
+.Triangle
+{
+display:none;
+}
+
+@media screen and (max-width:855px)
+{
+   
+.TopoContainer
+{
+margin:12px 0;
+height:60px;
+}
+ 
+.TopoContainer h2 
+{
+font-size:13px;
+}
+
+.TopoContainer span 
+{
+font-size:13px;
+}
+ 
+.TopoContainer img 
+{
+width:36px;
+height:36px;
+}
+
+.ButtonEmergency
+{
+position:absolute;
+bottom:-25%;
+padding:8px;
+display:flex !important;
+align-items:center;
+justify-content:center;
+border:none;
+background:var(--Background-NavBar);
+border-radius:50px;
+color:var(--Color_Text_NavBar);
+font-weight:bold;
+width:150px;
+height:30px;
+font-size:12px;
+}
+
+.ButtonEmergency svg 
+{
+font-size:20px;
+font-weight:bold;
+}
+
+.StyleParagraph,
+.RemoveParagraph
+{
+position:absolute;
+bottom:-80%;
+transition:.3s ease-in;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:13px;
+padding:5px;
+border-radius:30px;
+}
+
+.RemoveParagraph
+{
+height:0;
+opacity:0;
+width:450px;
+}
+
+.StyleParagraph
+{
+background:var(--Background-NavBar);
+width:450px;
+height:25px;
+opacity:1;
+}
+
+.Triangle,
+.RemoveWelcome
+{
+position:absolute;
+bottom:-44%;
+}
+
+.Triangle 
+{
+border-style:solid;
+border-top-width:12px;
+border-top-color:var(--Background-NavBar);
+border-right-width:12px;
+border-right-color:transparent;
+border-left-width:12px;
+border-left-color:transparent;
+border-bottom:none;
+display:block !important;
+transform:rotate(179deg);
+transition:.3s ease-in;
+}
+
+.RemoveWelcome 
+{
+border:solid 0px var(--Background-NavBar);
+transition:.3s ease-in;
+}
+  
+}
+
+
+@media screen and (max-width:472px)
+{
+.StyleParagraph,
+.RemoveParagraph
+{
+width:100% !important;
+}
+}
+
+@media screen and (max-width:387px)
+{
+.StyleParagraph,
+.RemoveParagraph 
+{
+font-size:12px !important;
+}
+}

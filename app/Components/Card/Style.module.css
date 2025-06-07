@@ -1,0 +1,100 @@
+
+.Card 
+{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+margin:auto 0;
+width:130px;
+flex-wrap:wrap;
+text-align:center;
+cursor:pointer;
+text-decoration:none;
+}
+
+.Card .Representation
+{
+width:50px;
+height:50px;
+display:block
+}
+
+.Card h2 
+{
+font-size:18px;
+}
+
+.Card p 
+{
+font-size:12px;
+}
+
+.Card h3 
+{
+font-size:15px;
+}
+
+.Card .HeadingTwo,
+.Card .HeadingThree,
+.Card .Paragraph 
+{
+color:var(--Flag-Color-Text);
+margin:5px 0;
+font-family:sans-serif !important;
+display:block !important;
+font-weight:bold !important;
+}
+
+.ContainerParagraph 
+{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+.SpecialStyles 
+{
+font-size:14px !important;
+}
+
+.SmallSignsImgs 
+{
+display:none;
+}
+ 
+@media screen and (max-width:899px)
+{
+
+.Card 
+{
+height:100%;
+justify-content:space-around !important;;
+}
+
+.Card .Paragraph 
+{
+font-weight:bold !important;
+font-size:12px; 
+}
+
+.Card .HeadingThree,
+.Card .Representation
+{
+display:none !important;
+}
+
+.ContainerParagraph 
+{
+width:100%;
+}
+
+.SmallSignsImgs
+{
+display:block !important;
+width:100px;
+height:100px;
+}
+
+}

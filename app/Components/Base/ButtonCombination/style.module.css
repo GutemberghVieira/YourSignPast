@@ -1,0 +1,183 @@
+
+.ContainersCombinations 
+{
+display:flex;
+flex-direction:column;
+}
+
+.ButtonDoNotHasNothing 
+{
+display:none;
+}
+
+.ButtonHasContent
+{
+padding:13px 18px;
+border:none;
+text-align:left;
+background:var(--CardBackground);
+border-bottom:2px solid var(--Border-Bottom);
+color:var(--Standard-Color);
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:relative;
+z-index:1;
+outline:none;
+}
+
+.ButtonHasContent
+section 
+{
+display:flex;
+align-items:center;
+}
+
+.SlowText
+{
+font-size:12px;
+}
+
+.ButtonHasContent
+div
+{
+display:flex;
+flex-wrap:wrap;
+}
+
+.StyleCapricorn
+div 
+{
+width:60% !important;
+}
+
+.StyleCapricorn 
+{
+font-size:11px !important;
+}
+
+.ButtonHasContent img 
+{
+width:40px;
+height:40px;
+}
+
+.ButtonHasContent svg 
+{
+font-size:22px;
+position:absolute;
+left:-0.50%;
+}
+
+.ParagraphMark
+{
+padding:10px;
+font-family:Kameron;
+font-size:20px;
+}
+
+.SeeMoreStyle
+{
+color:var(--Standard-Color);
+padding:5px 0;
+text-align:center;
+width:62px;
+text-decoration:none;
+font-size:11px;
+}
+
+.TextCortado 
+{
+color:#fff !important; 
+}
+
+.BlackStyle
+{
+position:absolute;
+background:#111111f0;
+height:100%;
+width:96%;
+display:flex;
+align-items:center;
+justify-content:center;
+transition:.2s ease-in;
+}
+ 
+.BlackStyle .MostSVG 
+{
+position:absolute;
+left:92%;
+font-size:35px;
+color:#fff;
+display:block;
+}
+
+.RemoveSVG,
+.ButtonCoatOfArms
+{
+transition:.2s ease-in;
+display:none !important;
+}
+
+.Come,
+.Remove
+{
+display:block;
+} 
+
+
+@media screen and (max-width:1019px) 
+{
+.UnicStyle .TwoSigns 
+{
+width:34px;
+height:34px;
+}
+}
+
+@media screen and (max-width:544px)
+{
+
+.ButtonHasContent
+{
+font-size:13px;
+}
+
+.PerfectStyle
+{
+padding:20px;
+}
+
+.ButtonHasContent .classRemove
+{
+display:none;
+}
+
+.ParagraphMark
+{
+font-size:18px !important;
+}
+
+.Remove 
+{
+display:none;
+}
+
+.Come 
+{
+display:block;
+}
+ 
+.BlackStyle 
+{
+position:absolute;
+left:0;
+}
+
+.BlackStyle .MostSVG 
+{
+left:88%;
+}
+
+}

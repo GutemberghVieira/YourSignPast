@@ -1,0 +1,92 @@
+
+/*First Container*/
+.ContainerDaddy 
+{
+width:100%;
+height:100%;
+background-image:var(--Background-Body) ;
+transition:.3s ease-in;
+background-size:cover;
+position:relative;
+}
+
+/*Second Container*/
+.Container 
+{
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.CardContainer 
+{
+width:300px;
+height:300px;
+position:relative;
+z-index:1;
+flex:1 1 300px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.CardContainer::before 
+{
+content:"";
+width:300px;
+height:300px;
+background:var(--Flag_White_Black);
+background-size:cover;
+position:absolute;
+z-index:-1;
+}
+
+@media screen and (max-width:899px)
+{
+
+.ContainerDaddy
+{
+background-image:url(../public/Wallpaper_Body_Background_Night_Small.jpg) !important;
+background-position:center;
+}
+
+.Container 
+{
+margin:55px 0;
+}
+
+.CardContainer 
+{
+flex:1 1 100px;
+margin:5px;
+background:var(--Background-Card);
+}
+
+.CardContainer::before
+{
+content:"";
+width:100%;
+height:100%;
+position:absolute;
+background-image:none;
+z-index:-1;
+}
+
+.CardContainer:hover
+{
+background:linear-gradient(65deg,#3B429D,#7D51A4,#ea79b7);
+transition:.2s ease-in;
+}
+
+.CardContainer:hover h2,
+.CardContainer:hover p 
+{
+color:#fff;
+transition:.2s ease-in;
+}
+
+}
+ 

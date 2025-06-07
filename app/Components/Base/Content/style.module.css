@@ -1,0 +1,149 @@
+
+.ContentStyle
+{
+width:100%;
+height:250px;
+transition:.4s ease-in;
+opacity:1;
+z-index:0;
+position:relative; 
+}
+
+.RemoveContent 
+{
+height:0 !important;
+opacity:0;
+transition:.4s ease-in;
+}
+
+.RemoveContent .StyleElements,
+.RemoveContent .SubContent p
+{
+opacity:0;
+}
+
+.ContentStyle .SubContent 
+{
+padding:10px;
+display:flex;
+justify-content:center;
+flex-direction:column;
+width:100%;
+height:100%;
+}
+
+.RemoveContent .SubContent p,
+.ContentStyle .SubContent p
+{
+font-size:17px;
+color:var(--Standard-Color);
+font-weight:bold;
+text-align:center;
+padding:10px;
+font-family:fangsong;
+}
+
+.RemoveContent .SubContent .Paragraph,
+.ContentStyle .SubContent .Paragraph
+{
+font-family:fangsong;
+font-weight:bold;
+}
+
+.ContentStyle .StyleElements
+{
+display:flex;
+align-items:center;
+justify-content:center;
+font-family:fangsong;
+width:100%;
+height:50px;
+}
+
+.ControlIMG
+{
+width:80px;
+height:80px;
+position:relative;
+}
+
+.StyleElements
+.ControlIMG
+img 
+{
+width:100%;
+height:100%;
+position:absolute;
+right:30%;
+}
+
+.Bold,
+.Fire,
+.Earth,
+.Wind,
+.Water
+{
+font-weight:bold;
+}
+
+.Fire 
+{
+color:var(--Color-Fire);
+}
+
+.Earth 
+{
+color:var(--Color-Earth);
+}
+
+.Wind 
+{
+color:var(--Color-Wind);
+}
+
+.Water 
+{
+color:var(--Color-Water);
+}
+
+.FireStyle
+{	
+background:var(--Background-Fire);
+}
+
+.EarthStyle
+{	
+background:var(--Background-Earth);
+}
+
+.WindStyle
+{	
+background:var(--Background-Wind);
+}
+
+.WaterStyle
+{	
+background:var(--Background-Water)
+}
+
+.AquarioStyle
+{
+font-size:14px !important;
+}
+
+
+@media screen and (max-width:429px)
+{
+
+.SubContent 
+{
+padding:0 !important;
+}
+
+.RemoveContent .SubContent p,
+.ContentStyle .SubContent p
+{
+font-size:14px !important;
+}
+
+}
